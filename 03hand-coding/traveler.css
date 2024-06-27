@@ -9,7 +9,7 @@ body {
 
 /* Header Stuff Here*/
 header {
-    background-color: #eaeaea;
+    background-color: #682d63;
     padding: 1rem 2vw;
 }
 header h1 {
@@ -108,7 +108,7 @@ main a:hover {
 
 /* footer stuff here*/
 footer {
-    background-color:#eaeaea;
+    background-color:#682d63;
     text-align: center;
     color: #024873;
     padding: 1rem 0;
