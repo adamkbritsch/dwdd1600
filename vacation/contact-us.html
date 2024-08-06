@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Vacation Website</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta charset="UTF-8"> 
+        
+        <meta name="description" content="Learn about Portraiture">
+        
+        <meta name="author" content="Adam Britsch">
+        
+        <link rel="stylesheet" href="traveler.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+        
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="50" height="50">
+            <div>
+                <h1>Vacation Destination</h1>
+                <p>Your Ultimate Resource</p>
+            </div>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="use.html">Packages</a></li>
+                <li class="active"><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="images.html">Images</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page main -->
+        <main>
+        <h1>Vacation Destination Contact Form</h1>
+        
+        <form method="get" class="myForm" action="thanks.html">
+            
+        <fieldset>
+        <legend>Contact Information</legend>
+        <label>First Name*<input type="text" name="fname" required>
+        </label>
+        <label>Last Name*<input type="text" name="lname" required>
+        </label> 
+        <label>Email*<input type="email" name="email" required placeholder="johndoe@example.com"></label>
+        <label>Cell Phone*<input type="tel" name="tel" required placeholder="(123)-456-7890"></label>
+        </fieldset>
+        
+        <fieldset> 
+        <legend>Vacation Calculator</legend>
+        <legend>What's your favorite weather?</legend>
+            <label><input type="radio" name="method" value="drone">Snow</label>
+            <label><input type="radio" name="method" value="cycle">Rain</label>
+            <label><input type="radio" name="method" value="robot">Sunny</label>
+            
+        <legend>Where would you like to visit?</legend> 
+            <label><input type="checkbox" name="tokyo" value="yes"> Tokyo</label>
+            <label><input type="checkbox" name="caribbean" value="yes"> Caribbean</label>
+            <label><input type="checkbox" name="oklohoma" value="yes"> Oklohoma</label>
+            <label><input type="checkbox" name="la" value="yes"> Los Angeles</label>
+            
+        <legend>Favorite season?</legend>
+            <label>
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="monday">Spring</option>
+            <option value="tuesday">Summer</option>
+            <option value="wednesday">Fall</option>
+            <option value="thursday">Winter</option>
+
+            </select></label>
+            
+            <label><legend>Questions and Comments</legend>
+            <textarea name="questions"></textarea>
+        </label>
+        
+        </fieldset>
+        
+        <input type="submit" value="Send Inquiry">
+        </form>
+    
+<address>
+Written by <a href="mailto:10987507@uvu.edu">Adam Britsch</a>.<br>
+Visit us at:<br>
+uvu.edu<br>
+<br>
+USA
+</address>
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Adam Britsch &bull; <a href="mailto:10987507@uvu.edu">Email Us</a></p>
+              
+        </footer>
+    </body>
+</html>
